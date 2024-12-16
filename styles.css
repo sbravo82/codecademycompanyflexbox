@@ -94,10 +94,6 @@ h1 {
     margin: 10px;
 }
 
-/*.card-image {
-    width: 500px;
-    height: 500px;
-}*/
 
 /*Meet the Team Section*/
 
@@ -124,4 +120,38 @@ h1 {
 .teamimage {
     width: 700px;
     height: 700px;
+}
+
+
+/*Footer Section*/
+
+.footerheader {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.footers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footerheading {
+    font-size: 2rem;
+}
+
+.footer p {
+    font-size: 1.5rem;
+}
+
+.footerimage {
+    width: 500px;
+    height: 400px;
+}
+
+.footer {
+    margin: auto;
 }
